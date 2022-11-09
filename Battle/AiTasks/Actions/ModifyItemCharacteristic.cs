@@ -29,7 +29,6 @@ namespace Toc.Battle.Ai.Tasks
 		
 		private void Modify()
 		{
-			// FIXME не применяется к реальному значению, и вообще подозрительно
 			var result = Proxy.ArmorValue.CalculateOperator(MathOperator, ModifyWith);
 		}
 	}
